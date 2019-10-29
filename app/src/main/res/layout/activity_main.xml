@@ -12,4 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/photo"
+            android:onClick="OnClick"
+            android:layout_marginLeft="155dp"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/change"
+            android:layout_marginLeft="60dp"
+            android:onClick="OnClick"
+            />
+
+    </TableRow>
 </FrameLayout>
